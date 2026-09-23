@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --color-brand-black: #0B0907;
+  --color-brand-dark: #120F0D;
+  --color-brand-surface: #191512;
+  --color-brand-card: #1D1814;
+  --color-brand-border: #2E251E;
+  --color-brand-border-gold: #C5A059;
+  --color-brand-gold: #C5A059;
+  --color-brand-gold-bright: #E2BC68;
+  --color-brand-gold-hover: #D4AF37;
+  --color-brand-gold-muted: #9A7B3E;
+  --color-brand-cream: #FBF9F5;
+  --color-brand-text-white: #FFFFFF;
+  --color-brand-text-body: #EDE7DF;
+  --color-brand-text-muted: #A3968A;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #0B0907;
+  color: #EDE7DF;
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+/* Custom subtle gold gradient utility */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #FFFFFF 0%, #F5E5C9 40%, #D4AF37 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-shimmer {
+  background: linear-gradient(90deg, #C5A059 0%, #F3D99F 50%, #C5A059 100%);
+}
+
+

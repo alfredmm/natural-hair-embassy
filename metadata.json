@@ -1,0 +1,6 @@
+{
+  "name": "Natural Hair Embassy",
+  "description": "Natural Hair Embassy offers professional microlock installation, maintenance, retightening, lock repair and natural hair care with personalized guidance from Certified Loctician Zainab Sawadogo in Marietta, GA.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
